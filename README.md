@@ -46,13 +46,7 @@ Type your tasks and hit **Enter**. Type `q` to quit.
 
 ## Where tasks are saved
 
-By default, tasks are stored in:
-
-```
-/Users/ruphaa/Documents/Second-brain/Todo-go.md
-```
-
-You can change this with the `-p` flag:
+Tasks are stored in a Markdown file. You can set the path with the `-p` flag:
 
 ```bash
 ./todo -p /path/to/my/todos.md add "walk the dog"
